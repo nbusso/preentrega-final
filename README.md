@@ -12,7 +12,7 @@
 
 # Aplicaciones de consigna
 
-## GRID en clases.html
+## GRID en clases.html [🔝](#cosas-a-tener-en-cuenta)
 
 ```scss
  .profWrapper {
@@ -69,7 +69,36 @@
     }    
 ```
 ---
-## Extend
+## Boostrap GRID en mundo.html [🔝](#cosas-a-tener-en-cuenta)
+```html
+    <div class="mainMundo">
+        <div class="row g-3 pb-3">
+            <a href="../img/screenshots/1.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+                <img src="../img/screenshots/1.jpg" class="img-fluid">
+            </a>
+            <a href="../img/screenshots/2.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+                <img src="../img/screenshots/2.jpg" class="img-fluid">
+            </a>
+            <a href="../img/screenshots/3.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+                <img src="../img/screenshots/3.jpg" class="img-fluid">
+            </a>
+        </div>
+        <div class="row g-3 pb-3">
+            <a href="../img/screenshots/4.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+                <img src="../img/screenshots/4.jpg" class="img-fluid">
+            </a>
+            <a href="../img/screenshots/5.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+                <img src="../img/screenshots/5.jpg" class="img-fluid">
+            </a>
+            <a href="../img/screenshots/6.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+                <img src="../img/screenshots/6.jpg" class="img-fluid">
+            </a>
+        </div>
+    </div>
+    <!-- el código de la galería es mucho más largo pero lo acá lo acorté para una mejor visualización -->
+```
+---
+## Extend [🔝](#cosas-a-tener-en-cuenta)
 ```scss
 //----  variable
 %spacing {
@@ -95,7 +124,7 @@
 }
 ```
 ---
-## Mapas
+## Mapas [🔝](#cosas-a-tener-en-cuenta)
 ```scss
 $cards: (
     1: '../img/Concept07.jpg',
@@ -134,7 +163,7 @@ $cards: (
 }
 ```
 ---
-Mixins
+Mixins [🔝](#cosas-a-tener-en-cuenta)
 ```scss
 // en _utilities.scss
 
@@ -175,3 +204,4 @@ Mixins
     }
 }
 ```
+ [🔝](#cosas-a-tener-en-cuenta)
